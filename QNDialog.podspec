@@ -7,6 +7,7 @@
 #
 
 Pod::Spec.new do |s|
+  s.swift_versions = ['5.0']
   s.name             = 'QNDialog'
   s.version          = '0.1.0'
   s.summary          = 'A short description of QNDialog.'
@@ -38,5 +39,10 @@ TODO: Add long description of the pod here.
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.static_framework = false
+  s.dependency 'SwiftMessages', '~> 9.0.5'
+  s.dependency 'QNQuantityTextField'
+  s.resource_bundles = {
+    'QNDialog' => ['QNDialog/Assets/*.xcassets']
+  }
 end

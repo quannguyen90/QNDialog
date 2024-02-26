@@ -1,0 +1,25 @@
+PODS:
+  - QNDialog (0.1.0):
+    - SwiftMessages (~> 9.0.5)
+  - SwiftMessages (9.0.6):
+    - SwiftMessages/App (= 9.0.6)
+  - SwiftMessages/App (9.0.6)
+
+DEPENDENCIES:
+  - QNDialog (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - SwiftMessages
+
+EXTERNAL SOURCES:
+  QNDialog:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  QNDialog: cc74814e93e1e7b3a4c4bb3be2e95d8081b049e6
+  SwiftMessages: f0c7ef4705a570ad6c5e208b611f4333e660ed92
+
+PODFILE CHECKSUM: b818e3e0048ab8575ca0b3331ac73748f174f734
+
+COCOAPODS: 1.11.2

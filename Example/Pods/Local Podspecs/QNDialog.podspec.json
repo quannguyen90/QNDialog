@@ -1,0 +1,32 @@
+{
+  "name": "QNDialog",
+  "swift_versions": [
+    "5.0"
+  ],
+  "version": "0.1.0",
+  "summary": "A short description of QNDialog.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/quannguyen90/QNDialog",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "quannguyen90": "quannv.tm@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/quannguyen90/QNDialog.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "QNDialog/Classes/**/*",
+  "static_framework": false,
+  "dependencies": {
+    "SwiftMessages": [
+      "~> 9.0.5"
+    ]
+  },
+  "swift_version": "5.0"
+}

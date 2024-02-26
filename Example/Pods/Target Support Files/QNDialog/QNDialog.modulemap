@@ -1,0 +1,6 @@
+framework module QNDialog {
+  umbrella header "QNDialog-umbrella.h"
+
+  export *
+  module * { export * }
+}

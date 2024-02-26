@@ -7,9 +7,19 @@
 //
 
 import UIKit
+import QNDialog
 
 class ViewController: UIViewController {
 
+    @IBAction func onTouchShowDialogTwoButton(_ sender: Any) {
+        
+
+    }
+    
+    @IBAction func showDialog(_ sender: Any) {
+        
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
